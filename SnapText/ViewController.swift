@@ -78,7 +78,8 @@ extension ViewController {
     }
     
     // Style Text
-    func styleText(strokeColor: UIColor, foregroundColor: UIColor, fontAttribute: UIColor, strokeWidth: Float) {
+    func styleText(strokeColor: UIColor, foregroundColor: UIColor, fontAttribute: UIColor,
+                   strokeWidth: Float, textFields: [UITextField]) {
         
     }
     
