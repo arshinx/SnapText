@@ -35,7 +35,8 @@ extension ViewController {
     
     // Select image
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        print(info.keys)
+        
+        // Capture Image Selected
     }
     
     // Cancelled
