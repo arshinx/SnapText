@@ -67,6 +67,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomTextField" destination="ZeY-fl-XPH" id="Yqo-Wg-b37"/>
                         <outlet property="cameraButton" destination="O9u-5V-ur4" id="diT-UX-VoL"/>
                         <outlet property="imagePickerView" destination="6ru-5o-pgn" id="Dea-Za-POw"/>
                         <outlet property="topTextField" destination="lIA-2L-xn4" id="CIE-wn-Nef"/>
