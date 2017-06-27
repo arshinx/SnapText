@@ -63,6 +63,9 @@ extension ViewController {
 
 extension ViewController {
     
-    
+    // Pick or Take a Photo
+    func getImage(from: UIImagePickerControllerSourceType) {
+        
+    }
     
 }
