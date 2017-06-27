@@ -34,6 +34,8 @@
                                             <action selector="pickImage:" destination="BYZ-38-t0r" id="fXd-wP-3Lo"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem width="272" style="plain" systemItem="fixedSpace" id="vZk-Lw-Omd"/>
+                                    <barButtonItem systemItem="camera" id="O9u-5V-ur4"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -45,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="127.28635682158921"/>
+            <point key="canvasLocation" x="-244" y="116"/>
         </scene>
     </scenes>
 </document>
