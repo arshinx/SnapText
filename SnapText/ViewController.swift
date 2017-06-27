@@ -40,7 +40,7 @@ extension ViewController {
         if let image = info["UIImagePickerControllerOriginalImage"] as? UIImage {
             
             // Display Image
-            
+            imagePickerView.image = image
         }
     }
     
