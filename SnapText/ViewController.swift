@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     
     // Actions
     @IBAction func pickImage(_ sender: Any) {
+        
+        // Use Image Picker Controller
+        let pickerController = UIImagePickerController
+        
     }
     
     override func viewDidLoad() {
