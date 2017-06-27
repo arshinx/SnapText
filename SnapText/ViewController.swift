@@ -31,3 +31,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 // Image Picker Controller
 
+extension ViewController {
+    
+}
