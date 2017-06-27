@@ -34,7 +34,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 }
 
-// Image Picker Controller
+// MARK: Image Picker Controller (Functions)
 
 extension ViewController {
     
