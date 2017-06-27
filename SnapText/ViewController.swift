@@ -39,6 +39,8 @@ extension ViewController {
         // Capture Image Selected
         if let image = info["UIImagePickerControllerOriginalImage"] as? UIImage {
             
+            // Display Image
+            
         }
     }
     
