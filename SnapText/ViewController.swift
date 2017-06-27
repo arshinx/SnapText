@@ -33,6 +33,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 extension ViewController {
     
+    // Cancelled
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         
     }
