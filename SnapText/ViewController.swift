@@ -30,6 +30,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            
+        }
     }
 }
 
