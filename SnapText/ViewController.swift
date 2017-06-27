@@ -27,10 +27,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         getImage(source: .camera)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         
-        // Disable Camera Button if Camera not available
     }
 }
 
