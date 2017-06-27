@@ -12,6 +12,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     // Outlets
     @IBOutlet weak var imagePickerView: UIImageView!
+    @IBOutlet weak var cameraButton: UIBarButtonItem!
     
     // Actions
     @IBAction func pickImage(_ sender: Any) {
