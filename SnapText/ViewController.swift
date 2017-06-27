@@ -30,6 +30,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Disable Camera Button if Camera not available
     }
 }
 
@@ -57,6 +58,7 @@ extension ViewController {
         dismiss(animated: true, completion: nil) // Dismiss Picker
     }
 }
+
 
 // MARK: Helpers
 
