@@ -33,6 +33,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 extension ViewController {
     
+    // Select image
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+    }
+    
     // Cancelled
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         
