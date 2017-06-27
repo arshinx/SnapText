@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     // Outlets
     @IBOutlet weak var imagePickerView: UIImageView!
     
-    
+    // Actions
+    @IBAction func pickImage(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -29,7 +29,11 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Pick" id="aGb-FD-W4b"/>
+                                    <barButtonItem title="Pick" id="aGb-FD-W4b">
+                                        <connections>
+                                            <action selector="pickImage:" destination="BYZ-38-t0r" id="fXd-wP-3Lo"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
