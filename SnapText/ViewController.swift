@@ -30,9 +30,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
-            
-        }
+        // Disable Camera button if camera not available
+        cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
     }
 }
 
