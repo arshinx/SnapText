@@ -16,7 +16,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     // Actions
     @IBAction func pickImage(_ sender: Any) {
         
-        // Use Image Picker Controller
+        // Pick Image
         getImage(source: .photoLibrary)
         
     }
