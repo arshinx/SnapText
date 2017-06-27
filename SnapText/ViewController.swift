@@ -23,6 +23,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
     }
     
+    @IBAction func captureImage(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
