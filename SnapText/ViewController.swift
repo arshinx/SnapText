@@ -78,7 +78,7 @@ extension ViewController {
     }
     
     // Style Text
-    func styleText() {
+    func styleText(strokeColor: UIColor) {
         
     }
     
