@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         // Use Image Picker Controller
         let pickerController = UIImagePickerController()
+        self.present(pickerController, animated: true, completion: nil)
         
     }
     
