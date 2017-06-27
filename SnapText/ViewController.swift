@@ -44,6 +44,7 @@ extension ViewController {
         }
         
         // Dismiss View after image is displayed
+        dismiss(animated: true, completion: nil)
     }
     
     // Cancelled
