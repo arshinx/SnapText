@@ -17,9 +17,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func pickImage(_ sender: Any) {
         
         // Use Image Picker Controller
-        let pickerController = UIImagePickerController()
-        pickerController.delegate = self
-        self.present(pickerController, animated: true, completion: nil)
+        
         
     }
     
@@ -64,8 +62,12 @@ extension ViewController {
 extension ViewController {
     
     // Pick or Take a Photo
-    func getImage(from: UIImagePickerControllerSourceType) {
+    func getImage(source: UIImagePickerControllerSourceType) {
         
+        let pickerController = UIImagePickerController()
+        pickerController.delegate = self
+        pickerController.sourceType = source
+        self.present(pickerController, animated: true, completion: nil)
     }
     
 }
