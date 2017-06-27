@@ -77,4 +77,9 @@ extension ViewController {
         self.present(pickerController, animated: true, completion: nil)
     }
     
+    // Style Text
+    func styleText() {
+        
+    }
+    
 }
