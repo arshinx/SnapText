@@ -42,6 +42,8 @@ extension ViewController {
             // Display Image
             imagePickerView.image = image
         }
+        
+        // Dismiss View after image is displayed
     }
     
     // Cancelled
