@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBAction func pickImage(_ sender: Any) {
         
         // Use Image Picker Controller
-        let pickerController = UIImagePickerController
+        let pickerController = UIImagePickerController()
         
     }
     
