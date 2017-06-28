@@ -15,6 +15,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var cameraButton: UIBarButtonItem!
     @IBOutlet weak var topTextField: UITextField!
     @IBOutlet weak var bottomTextField: UITextField!
+    @IBOutlet weak var navBar: UINavigationItem!
+    @IBOutlet weak var toolBar: UIToolbar!
     
     // Actions
     @IBAction func pickImage(_ sender: Any) {
