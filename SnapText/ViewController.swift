@@ -238,6 +238,11 @@ extension ViewController {
         return keyboardSize.cgRectValue.height
     }
     
+    func toogleNavAndToolBarVisiblity(hide: Bool) {
+        navigationController?.setNavigationBarHidden(hide, animated: false)
+        toolBar.isHidden = hide
+    }
+    
 }
 
 
