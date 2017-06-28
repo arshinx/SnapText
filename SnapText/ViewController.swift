@@ -107,7 +107,7 @@ extension ViewController {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
-        self.view.endEditing(true)
+        textField.endEditing(true)
         return true
     }
 }
