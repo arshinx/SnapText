@@ -80,6 +80,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="AHF-2V-FBH">
                         <barButtonItem key="leftBarButtonItem" systemItem="action" id="SW9-Zr-igf"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="2Of-Ss-hUN"/>
                     </navigationItem>
                     <connections>
                         <outlet property="bottomTextField" destination="ZeY-fl-XPH" id="Yqo-Wg-b37"/>
