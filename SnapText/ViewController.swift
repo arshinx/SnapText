@@ -48,7 +48,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func shareSnap(_ sender: Any) {
-        
+        saveSnap()
     }
     
     @IBAction func reset(_ sender: Any) {
