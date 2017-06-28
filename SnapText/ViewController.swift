@@ -132,6 +132,12 @@ extension ViewController {
         view.frame.origin.y -= getKeyboardHeight(notification) // Move View up
     }
     
+    // Keyboard Move Up - Helper
+    func keyboardWillHide(_ notification:Notification) {
+        
+        view.frame.origin.y = 0 // Reset View's Vertical Position
+    }
+    
     // Get Keyboard Height
     func getKeyboardHeight(_ notification:Notification) -> CGFloat {
         
