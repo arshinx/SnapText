@@ -33,7 +33,7 @@
                                             <action selector="pickImage:" destination="BYZ-38-t0r" id="fXd-wP-3Lo"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="272" style="plain" systemItem="fixedSpace" id="vZk-Lw-Omd"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vZk-Lw-Omd"/>
                                     <barButtonItem systemItem="camera" id="O9u-5V-ur4">
                                         <connections>
                                             <action selector="captureImage:" destination="BYZ-38-t0r" id="WR1-Zf-Sxd"/>
