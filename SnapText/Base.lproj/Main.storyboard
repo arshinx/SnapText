@@ -79,7 +79,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AHF-2V-FBH">
-                        <barButtonItem key="leftBarButtonItem" systemItem="action" id="SW9-Zr-igf"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="action" id="SW9-Zr-igf">
+                            <connections>
+                                <action selector="shareSnap:" destination="BYZ-38-t0r" id="4L8-6T-L2n"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="2Of-Ss-hUN"/>
                     </navigationItem>
                     <connections>
