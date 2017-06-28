@@ -110,6 +110,10 @@ extension ViewController {
 // MARK: Snap
 extension ViewController {
     
+    func createSnap() {
+        // Create the snap
+        let snap = Snap(topText: topTextField.text!, bottomText: bottomTextField.text!, originalImage: imagePickerView.image!, snap: UIImage())
+    }
 }
 
 
