@@ -81,6 +81,25 @@ extension ViewController {
     func styleText(strokeColor: UIColor, foregroundColor: UIColor, fontAttribute: UIColor,
                    strokeWidth: Float, textFields: [UITextField]) {
         
+        // Text Attributes
+        let memeTextAttributes:[String:Any] = [
+            NSStrokeColorAttributeName: strokeColor,
+            NSForegroundColorAttributeName: foregroundColor,
+            NSFontAttributeName: fontAttribute,
+            NSStrokeWidthAttributeName: strokeWidth]
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
