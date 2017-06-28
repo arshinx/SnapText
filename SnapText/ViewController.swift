@@ -75,6 +75,11 @@ extension ViewController {
 // MARK: Notifications
 extension ViewController {
     
+    // Subscribe
+    func subscribeToKeyboardNotifications() {
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow, object: nil)
+    }
     
 }
 
