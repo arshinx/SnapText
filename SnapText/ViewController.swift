@@ -75,6 +75,7 @@ extension ViewController {
 // MARK: Notifications
 extension ViewController {
     
+    
 }
 
 
@@ -107,6 +108,12 @@ extension ViewController {
             field.defaultTextAttributes = textAttributes
             field.textAlignment = .center
         }
+    }
+    
+    // Keyboard Move Up - Helper
+    func keyboardWillShow(_ notification:Notification) {
+        
+        view.frame.origin.y -= getKeyboardHeight(notification) // Move View up
     }
     
 }
