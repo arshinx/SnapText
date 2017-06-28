@@ -41,8 +41,8 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" TOP" borderStyle="roundedRect" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-2L-xn4">
-                                <rect key="frame" x="63" y="39" width="249" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" TOP" borderStyle="roundedRect" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-2L-xn4">
+                                <rect key="frame" x="63" y="60" width="249" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="JkW-su-cuf"/>
                                 </constraints>
@@ -51,7 +51,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" BOTTOM" borderStyle="roundedRect" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZeY-fl-XPH">
-                                <rect key="frame" x="63" y="523" width="249" height="40"/>
+                                <rect key="frame" x="63" y="543" width="249" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WQg-rM-51Y"/>
                                 </constraints>
@@ -69,9 +69,10 @@
                             <constraint firstAttribute="trailing" secondItem="6ru-5o-pgn" secondAttribute="trailing" id="Rgl-fn-L4z"/>
                             <constraint firstAttribute="trailing" secondItem="V0U-1h-eUG" secondAttribute="trailing" id="U3F-WU-skl"/>
                             <constraint firstItem="6ru-5o-pgn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XAO-Nn-E8D"/>
-                            <constraint firstItem="V0U-1h-eUG" firstAttribute="top" secondItem="ZeY-fl-XPH" secondAttribute="bottom" constant="60" id="ZwY-Ae-Ncj"/>
+                            <constraint firstItem="V0U-1h-eUG" firstAttribute="top" secondItem="ZeY-fl-XPH" secondAttribute="bottom" constant="40" id="ZwY-Ae-Ncj"/>
                             <constraint firstItem="V0U-1h-eUG" firstAttribute="top" secondItem="6ru-5o-pgn" secondAttribute="bottom" id="b6B-e9-n4Q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZeY-fl-XPH" secondAttribute="trailing" constant="47" id="iaz-bd-AY0"/>
+                            <constraint firstItem="lIA-2L-xn4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="seY-Da-HAn"/>
                             <constraint firstItem="V0U-1h-eUG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="usu-1k-TVB"/>
                             <constraint firstItem="ZeY-fl-XPH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="xjC-eF-5ad"/>
                             <constraint firstItem="lIA-2L-xn4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="zKf-nM-TiF"/>
