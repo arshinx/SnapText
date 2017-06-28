@@ -88,7 +88,7 @@ extension ViewController {
     }
     
     // Unsubscribe
-    func unsubscribeFromKeyboardNotifications() {
+    func unsubscribeFromKeyboardNotifications(name: NSNotification.Name?) {
         
         NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
     }
