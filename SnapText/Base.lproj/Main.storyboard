@@ -27,6 +27,9 @@
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V0U-1h-eUG">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aOm-lG-uom"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem title="Pick" id="aGb-FD-W4b">
                                         <connections>
