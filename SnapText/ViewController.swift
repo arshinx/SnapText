@@ -37,6 +37,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
         
         // Style Text Fields
+        
     }
 }
 
@@ -80,7 +81,7 @@ extension ViewController {
     }
     
     // Style Text
-    func styleText(strokeColor: UIColor, foregroundColor: UIColor, fontAttribute: UIColor,
+    func styleText(strokeColor: UIColor, foregroundColor: UIColor, fontAttribute: UIFont,
                    strokeWidth: Float, textFields: [UITextField]) {
         
         // Text Attributes
