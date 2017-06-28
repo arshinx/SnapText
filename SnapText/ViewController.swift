@@ -38,7 +38,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Style Text Fields
         let fontAttribute = UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)
-        styleText(strokeColor: UIColor.black, foregroundColor: UIColor.white, fontAttribute: fontAttribute!, strokeWidth: 1, textFields: [topTextField, bottomTextField])
+        styleText(strokeColor: UIColor.black, foregroundColor: UIColor.white, fontAttribute: fontAttribute!, strokeWidth: 10, textFields: [topTextField, bottomTextField])
     }
 }
 
