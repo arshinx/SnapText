@@ -46,7 +46,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Style Text Fields
         let fontAttribute = UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)
-        let borderSize: Float = 5
+        let borderSize: Float = -5
         styleText(strokeColor: UIColor.black, foregroundColor: UIColor.white, fontAttribute: fontAttribute!, strokeWidth: borderSize, textFields: [topTextField, bottomTextField])
         
         // Keyboard Notifications Subscription
