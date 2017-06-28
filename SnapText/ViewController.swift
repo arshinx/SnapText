@@ -31,7 +31,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
+        super.viewWillAppear(animated)
         
         // Disable Camera button if camera not available
         cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
@@ -40,6 +40,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let fontAttribute = UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)
         let borderSize: Float = 5
         styleText(strokeColor: UIColor.black, foregroundColor: UIColor.white, fontAttribute: fontAttribute!, strokeWidth: borderSize, textFields: [topTextField, bottomTextField])
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
     }
 }
 
