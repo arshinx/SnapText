@@ -51,6 +51,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Keyboard Notifications unsubscribe
         unsubscribeFromKeyboardNotifications(name: .UIKeyboardWillShow)
+        unsubscribeFromKeyboardNotifications(name: .UIKeyboardWillHide)
     }
 }
 
