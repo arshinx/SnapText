@@ -82,7 +82,7 @@ extension ViewController {
 extension ViewController {
     
     // Subscribe
-    func subscribeToKeyboardNotifications() {
+    func subscribeToKeyboardNotifications(selector: Selector, name: NSNotification.Name?) {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow, object: nil)
     }
