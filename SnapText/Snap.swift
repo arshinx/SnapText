@@ -14,4 +14,5 @@ struct Snap {
     var topText: String
     var bottomText: String
     var image: UIImage
+    var snap: UIImage
 }
