@@ -116,6 +116,14 @@ extension ViewController {
         view.frame.origin.y -= getKeyboardHeight(notification) // Move View up
     }
     
+    // Get Keyboard Height
+    func getKeyboardHeight(_ notification:Notification) -> CGFloat {
+        
+        let userInfo = notification.userInfo
+        let keyboardSize = userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue // of CGRect
+        return keyboardSize.cgRectValue.height
+    }
+    
 }
 
 
