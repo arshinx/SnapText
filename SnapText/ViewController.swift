@@ -47,6 +47,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        
+        // Keyboard Notifications unsubscribe
+        unsubscribeFromKeyboardNotifications()
     }
 }
 
