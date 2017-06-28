@@ -24,6 +24,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Pick Image
         getImage(source: .photoLibrary)
+        shareButton.isEnabled = true
         
     }
     
@@ -31,6 +32,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Capture Image
         getImage(source: .camera)
+        shareButton.isEnabled = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
