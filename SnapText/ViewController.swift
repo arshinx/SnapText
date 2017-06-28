@@ -59,10 +59,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         let activityViewController = UIActivityViewController(activityItems: [createSnap()],
                                                               applicationActivities: nil)
+        
         activityViewController.popoverPresentationController?.barButtonItem = shareButton
         activityViewController.popoverPresentationController?.sourceView = self.view
         
         self.present(activityViewController, animated: true) {
+            
+        }
+        activityViewController.completionWithItemsHandler = { activity, success, items, error in
             self.saveSnap()
         }
     }
