@@ -21,17 +21,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BTe-7w-8eD">
-                                <rect key="frame" x="73" y="232" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BTe-7w-8eD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BTe-7w-8eD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JCa-y8-AFg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="BTe-7w-8eD" secondAttribute="bottom" id="Vr1-RI-FT8"/>
+                            <constraint firstAttribute="trailing" secondItem="BTe-7w-8eD" secondAttribute="trailing" id="bVR-Sb-mel"/>
+                            <constraint firstItem="BTe-7w-8eD" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hBv-4g-2ym"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="24.800000000000001" y="394.45277361319341"/>
         </scene>
     </scenes>
 </document>
