@@ -107,6 +107,8 @@ extension ViewController {
     }
 }
 
+// MARK: Snap
+
 
 // MARK: Helpers
 
