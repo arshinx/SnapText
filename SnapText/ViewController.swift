@@ -131,7 +131,7 @@ extension ViewController {
         
         // Hide toolbar and navbar
         self.navigationController?.setNavigationBarHidden(true, animated: false)
-        self.navigationController?.setToolbarHidden(true, animated: false)
+        toolBar.isHidden = true
         
         // Render view to an image
         UIGraphicsBeginImageContext(self.view.frame.size)
@@ -139,7 +139,9 @@ extension ViewController {
         let snap:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         
-        // TODO: Show toolbar and navbar
+        // Show toolbar and navbar
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        toolBar.isHidden = false
         
         return snap
     }
