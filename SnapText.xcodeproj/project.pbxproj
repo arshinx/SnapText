@@ -315,6 +315,7 @@
 				73390A3A1F0307200049391F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
