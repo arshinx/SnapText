@@ -43,13 +43,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Keyboard Notifications Subscription
         subscribeToKeyboardNotifications(selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow)
+        subscribeToKeyboardNotifications(selector: #selector(keyboardWillHide(_:)), name: .UIKeyboardWillHide)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         // Keyboard Notifications unsubscribe
-        unsubscribeFromKeyboardNotifications()
+        unsubscribeFromKeyboardNotifications(name: .UIKeyboardWillShow)
     }
 }
 
