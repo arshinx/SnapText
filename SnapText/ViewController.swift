@@ -103,6 +103,11 @@ extension ViewController {
         topTextField.text = ""
         bottomTextField.text = ""
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        return true
+    }
 }
 
 
