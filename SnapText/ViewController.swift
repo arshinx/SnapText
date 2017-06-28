@@ -84,13 +84,13 @@ extension ViewController {
     // Subscribe
     func subscribeToKeyboardNotifications(selector: Selector, name: NSNotification.Name?) {
         
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: selector, name: name, object: nil)
     }
     
     // Unsubscribe
     func unsubscribeFromKeyboardNotifications(name: NSNotification.Name?) {
         
-        NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.removeObserver(self, name: name, object: nil)
     }
 }
 
