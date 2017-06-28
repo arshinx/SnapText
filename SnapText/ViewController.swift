@@ -42,7 +42,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         styleText(strokeColor: UIColor.black, foregroundColor: UIColor.white, fontAttribute: fontAttribute!, strokeWidth: borderSize, textFields: [topTextField, bottomTextField])
         
         // Keyboard Notifications Subscription
-        subscribeToKeyboardNotifications()
+        subscribeToKeyboardNotifications(selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
