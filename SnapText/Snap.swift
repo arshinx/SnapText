@@ -12,4 +12,5 @@ import UIKit
 struct Snap {
     
     var topText: String
+    var bottomText: String
 }
