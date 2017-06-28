@@ -13,6 +13,7 @@
 		73390A311F0307200049391F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73390A301F0307200049391F /* Assets.xcassets */; };
 		73390A341F0307200049391F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73390A321F0307200049391F /* LaunchScreen.storyboard */; };
 		73390A3C1F0317C60049391F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73390A3B1F0317C60049391F /* Extensions.swift */; };
+		73390A3E1F0343350049391F /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73390A3D1F0343350049391F /* Snap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		73390A331F0307200049391F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73390A351F0307200049391F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73390A3B1F0317C60049391F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		73390A3D1F0343350049391F /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				73390A291F0307200049391F /* AppDelegate.swift */,
 				73390A2B1F0307200049391F /* ViewController.swift */,
+				73390A3D1F0343350049391F /* Snap.swift */,
 				73390A3B1F0317C60049391F /* Extensions.swift */,
 				73390A2D1F0307200049391F /* Main.storyboard */,
 				73390A301F0307200049391F /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				73390A2C1F0307200049391F /* ViewController.swift in Sources */,
 				73390A3C1F0317C60049391F /* Extensions.swift in Sources */,
 				73390A2A1F0307200049391F /* AppDelegate.swift in Sources */,
+				73390A3E1F0343350049391F /* Snap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
