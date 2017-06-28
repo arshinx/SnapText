@@ -219,7 +219,9 @@ extension ViewController {
     // Keyboard Move Up - Helper
     func keyboardWillShow(_ notification:Notification) {
         
-        view.frame.origin.y = 0 - getKeyboardHeight(notification) // Move View up
+        if bottomTextField.isFirstResponder {
+            view.frame.origin.y = 0 - getKeyboardHeight(notification) // Move View up
+        }
     }
     
     // Keyboard Move Up - Helper
