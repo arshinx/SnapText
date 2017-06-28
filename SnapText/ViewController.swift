@@ -17,6 +17,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var bottomTextField: UITextField!
     @IBOutlet weak var navBar: UINavigationItem!
     @IBOutlet weak var toolBar: UIToolbar!
+    @IBOutlet weak var shareButton: UIBarButtonItem!
     
     // Actions
     @IBAction func pickImage(_ sender: Any) {
@@ -53,7 +54,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         let activityViewController = UIActivityViewController(activityItems: [createSnap()],
                                                               applicationActivities: nil)
-        self.present(activityViewController, animated: true) { 
+        activityViewController.popoverPresentationController?.barButtonItem = shareButton
+        activityViewController.popoverPresentationController?.sourceView = self.view
+        
+        self.present(activityViewController, animated: true) {
             self.saveSnap()
         }
     }
@@ -156,7 +160,9 @@ extension ViewController {
 // MARK: UIPopOverControllerDelegate
 extension ViewController {
     
-    
+    func prepareForPopoverPresentation(_ popoverPresentationController: UIPopoverPresentationController) {
+        popoverPresentationController.passthroughViews = [self.view]
+    }
 }
 
 
