@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -40,16 +41,14 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TOP" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-2L-xn4">
-                                <rect key="frame" x="58" y="39" width="249" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TOP" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-2L-xn4">
+                                <rect key="frame" x="63" y="39" width="249" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BOTTOM" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZeY-fl-XPH">
-                                <rect key="frame" x="58" y="576" width="249" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BOTTOM" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZeY-fl-XPH">
+                                <rect key="frame" x="63" y="533" width="249" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -59,11 +58,17 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V0U-1h-eUG" secondAttribute="bottom" id="2jM-Pg-qIA"/>
                             <constraint firstItem="6ru-5o-pgn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8ad-V2-cLV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lIA-2L-xn4" secondAttribute="trailing" constant="47" id="LWx-vD-yID"/>
+                            <constraint firstItem="lIA-2L-xn4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NUv-hX-hdm"/>
                             <constraint firstAttribute="trailing" secondItem="6ru-5o-pgn" secondAttribute="trailing" id="Rgl-fn-L4z"/>
                             <constraint firstAttribute="trailing" secondItem="V0U-1h-eUG" secondAttribute="trailing" id="U3F-WU-skl"/>
                             <constraint firstItem="6ru-5o-pgn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XAO-Nn-E8D"/>
+                            <constraint firstItem="V0U-1h-eUG" firstAttribute="top" secondItem="ZeY-fl-XPH" secondAttribute="bottom" constant="60" id="ZwY-Ae-Ncj"/>
                             <constraint firstItem="V0U-1h-eUG" firstAttribute="top" secondItem="6ru-5o-pgn" secondAttribute="bottom" id="b6B-e9-n4Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZeY-fl-XPH" secondAttribute="trailing" constant="47" id="iaz-bd-AY0"/>
                             <constraint firstItem="V0U-1h-eUG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="usu-1k-TVB"/>
+                            <constraint firstItem="ZeY-fl-XPH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="xjC-eF-5ad"/>
+                            <constraint firstItem="lIA-2L-xn4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="47" id="zKf-nM-TiF"/>
                         </constraints>
                     </view>
                     <connections>
