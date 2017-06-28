@@ -141,6 +141,7 @@ extension ViewController {
         for field in textFields {
             field.defaultTextAttributes = textAttributes
             field.textAlignment = .center
+            field.delegate = self
         }
     }
     
