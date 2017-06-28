@@ -52,6 +52,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func reset(_ sender: Any) {
+        topTextField.text = "TOP"
+        bottomTextField.text = "BOTTOM"
+        imagePickerView.image = nil
     }
     
     override func viewWillDisappear(_ animated: Bool) {
