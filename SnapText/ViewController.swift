@@ -168,6 +168,17 @@ extension ViewController {
     func prepareForPopoverPresentation(_ popoverPresentationController: UIPopoverPresentationController) {
         popoverPresentationController.passthroughViews = [self.view]
     }
+    
+    func doneSharingHandler(activityType: String!, completed: Bool, returnedItems: [AnyObject]!, error: NSError!) {
+        
+        // Return if cancelled
+        if (!completed) {
+            return
+        } else {
+            saveSnap()
+        }
+        
+    }
 }
 
 
