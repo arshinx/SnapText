@@ -43,7 +43,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Keyboard Notifications Subscription
         subscribeToKeyboardNotifications(selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow)
-        subscribeToKeyboardNotifications(selector: #selector(keyboardWillHide(_:)), name: .UIKeyboardWillHide)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -106,6 +105,7 @@ extension ViewController {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
+        self.view.endEditing(true)
         return true
     }
 }
