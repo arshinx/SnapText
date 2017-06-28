@@ -99,7 +99,10 @@ extension ViewController {
 // MARK: Text Field
 extension ViewController {
     
-    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        topTextField.text = ""
+        bottomTextField.text = ""
+    }
 }
 
 
