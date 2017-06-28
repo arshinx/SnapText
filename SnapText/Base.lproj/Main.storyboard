@@ -84,7 +84,11 @@
                                 <action selector="shareSnap:" destination="BYZ-38-t0r" id="4L8-6T-L2n"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="2Of-Ss-hUN"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="2Of-Ss-hUN">
+                            <connections>
+                                <action selector="reset:" destination="BYZ-38-t0r" id="4h0-u8-Nm5"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="bottomTextField" destination="ZeY-fl-XPH" id="Yqo-Wg-b37"/>
