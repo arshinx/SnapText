@@ -48,7 +48,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func shareSnap(_ sender: Any) {
-        saveSnap()
+        
+        let activityViewController = UIActivityViewController(activityItems: [createSnap()],
+                                                              applicationActivities: nil)
+        self.present(activityViewController, animated: true) { 
+            self.saveSnap()
+        }
     }
     
     @IBAction func reset(_ sender: Any) {
