@@ -96,6 +96,8 @@ extension ViewController {
     }
 }
 
+// MARK: Text Field
+
 
 // MARK: Helpers
 
@@ -131,7 +133,7 @@ extension ViewController {
     // Keyboard Move Up - Helper
     func keyboardWillShow(_ notification:Notification) {
         
-        view.frame.origin.y -= getKeyboardHeight(notification) // Move View up
+        view.frame.origin.y = 0 - getKeyboardHeight(notification) // Move View up
     }
     
     // Keyboard Move Up - Helper
