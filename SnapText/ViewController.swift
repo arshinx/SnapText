@@ -143,8 +143,7 @@ extension ViewController {
     func createSnap() -> UIImage {
         
         // Hide toolbar and navbar
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-        toolBar.isHidden = true
+        toogleNavAndToolBarVisiblity(hide: true)
         
         // Render view to an image
         UIGraphicsBeginImageContext(self.view.frame.size)
@@ -153,8 +152,7 @@ extension ViewController {
         UIGraphicsEndImageContext()
         
         // Show toolbar and navbar
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
-        toolBar.isHidden = false
+        toogleNavAndToolBarVisiblity(hide: false)
         
         return snap
     }
