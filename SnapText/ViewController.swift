@@ -82,11 +82,16 @@ extension ViewController {
                    strokeWidth: Float, textFields: [UITextField]) {
         
         // Text Attributes
-        let memeTextAttributes:[String:Any] = [
+        let textAttributes:[String:Any] = [
             NSStrokeColorAttributeName: strokeColor,
             NSForegroundColorAttributeName: foregroundColor,
             NSFontAttributeName: fontAttribute,
             NSStrokeWidthAttributeName: strokeWidth]
+        
+        // Assign attributes to all fields
+        for field in textFields {
+            field.defaultTextAttributes = textAttributes
+        }
     }
     
 }
