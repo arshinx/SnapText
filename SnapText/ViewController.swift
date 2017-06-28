@@ -38,6 +38,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         // Disable Camera button if camera not available
         cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
+        if imagePickerView.image == nil {
+            shareButton.isEnabled = false
+        }
         
         // Style Text Fields
         let fontAttribute = UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)
