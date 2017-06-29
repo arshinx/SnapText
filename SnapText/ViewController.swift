@@ -160,7 +160,8 @@ extension ViewController {
     func saveSnap() {
         // Create the snap
         let snap = Snap(topText: topTextField.text!, bottomText: bottomTextField.text!, originalImage: imagePickerView.image!, snap: createSnap())
-        print(snap)
+        
+        // Add Snaps to Snaps array - App Delegate
     }
 }
 
