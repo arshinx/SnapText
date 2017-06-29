@@ -27,6 +27,7 @@ class SnapCollectionViewController: UICollectionViewController {
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+        collectionView?.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
