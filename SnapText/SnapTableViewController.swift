@@ -106,5 +106,7 @@ class SnapTableViewController: UITableViewController {
 // MARK: Helpers
 extension ViewController {
     
+    func getSnaps() -> [Snap] {
     
+    }
 }
