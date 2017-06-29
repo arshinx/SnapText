@@ -43,6 +43,7 @@ class SnapTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         // Configure the cell...
+        let snap = snaps[indexPath.row]
 
         return cell
     }
