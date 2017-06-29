@@ -63,6 +63,11 @@ class SnapCollectionViewController: UICollectionViewController {
     }
 
     // MARK: UICollectionViewDelegate
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+    }
 
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
