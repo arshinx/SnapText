@@ -58,6 +58,8 @@ class SnapCollectionViewController: UICollectionViewController {
     
         // Configure the cell
         let snap = snaps[indexPath.row]
+        
+        cell.backgroundView = UIImageView(image: snap.snap)
     
         return cell
     }
