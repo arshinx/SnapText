@@ -18,6 +18,7 @@ class SnapCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        snaps = appDelegate.snaps
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
