@@ -23,8 +23,7 @@ class SnapTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         
         // Snaps
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        snaps = appDelegate.snaps
+        snaps = getSnaps()
         
         tableView.reloadData()
         print("\n\n TableView \(snaps.count) \n\n")
