@@ -163,6 +163,8 @@ extension ViewController {
         
         // Add Snaps to Snaps array - App Delegate
         (UIApplication.shared.delegate as! AppDelegate).snaps.append(snap)
+        
+        dismiss(animated: true, completion: nil)
     }
 }
 
