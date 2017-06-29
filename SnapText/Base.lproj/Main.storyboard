@@ -189,10 +189,10 @@
             </objects>
             <point key="canvasLocation" x="-192.80000000000001" y="451.12443778110946"/>
         </scene>
-        <!--View Controller-->
+        <!--SnapDetailViewController-->
         <scene sceneID="3Ps-9h-3AB">
             <objects>
-                <viewController id="XFG-NF-BCl" sceneMemberID="viewController">
+                <viewController title="SnapDetailViewController" id="XFG-NF-BCl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HgG-W6-Dcu"/>
                         <viewControllerLayoutGuide type="bottom" id="pEZ-Hi-i56"/>
