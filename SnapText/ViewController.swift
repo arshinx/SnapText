@@ -162,6 +162,7 @@ extension ViewController {
         let snap = Snap(topText: topTextField.text!, bottomText: bottomTextField.text!, originalImage: imagePickerView.image!, snap: createSnap())
         
         // Add Snaps to Snaps array - App Delegate
+        (UIApplication.shared.delegate as! AppDelegate).snaps.append(snap)
     }
 }
 
