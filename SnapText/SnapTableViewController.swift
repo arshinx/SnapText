@@ -10,13 +10,14 @@ import UIKit
 
 class SnapTableViewController: UITableViewController {
     
-    var snap : [Snap]!
+    var snaps : [Snap]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Snaps
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        snaps = appDelegate.snaps
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
