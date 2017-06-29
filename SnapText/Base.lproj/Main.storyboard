@@ -250,11 +250,11 @@
             </objects>
             <point key="canvasLocation" x="-1132" y="-240.62968515742131"/>
         </scene>
-        <!--Item-->
+        <!--Snap Collection-->
         <scene sceneID="Rqd-k1-q3g">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Izl-z9-a3S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="FER-uc-OK5"/>
+                    <tabBarItem key="tabBarItem" title="Snap Collection" image="collection_30x30" id="FER-uc-OK5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DFY-Gg-xWe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -271,6 +271,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="collection_30x30" width="30" height="30"/>
         <image name="table_30x30" width="30" height="30"/>
     </resources>
 </document>
