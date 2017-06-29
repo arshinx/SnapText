@@ -14,12 +14,9 @@ class SnapTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Snaps
+        
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         snaps = appDelegate.snaps
-        
-        print("\n\n TableView \(snaps.count) \n\n")
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -27,6 +24,17 @@ class SnapTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         tableView.reloadData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Snaps
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        snaps = appDelegate.snaps
+        
+        tableView.reloadData()
+        print("\n\n TableView \(snaps.count) \n\n")
     }
 
     // MARK: - Table view data source
