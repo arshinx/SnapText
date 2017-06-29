@@ -9,6 +9,8 @@
 import UIKit
 
 class SnapTableViewController: UITableViewController {
+    
+    var snap : [Snap]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
