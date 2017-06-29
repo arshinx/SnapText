@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="-241"/>
+            <point key="canvasLocation" x="630" y="-241"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XbO-Vz-9Xq">
@@ -148,7 +148,9 @@
                             <outlet property="delegate" destination="Nfk-R7-cma" id="7kj-B0-q2P"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Snaps" id="jMB-TX-iwS"/>
+                    <navigationItem key="navigationItem" title="Snaps" id="jMB-TX-iwS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="oFx-LU-kdS"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZn-3n-qV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
