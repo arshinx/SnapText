@@ -54,12 +54,12 @@ class SnapCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! SnapCollectionViewCell
     
         // Configure the cell
         let snap = snaps[indexPath.row]
         
-        cell.backgroundView = UIImageView(image: snap.snap)
+        
     
         return cell
     }
