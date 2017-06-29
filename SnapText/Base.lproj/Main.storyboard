@@ -193,6 +193,9 @@
                                     <constraint firstAttribute="bottom" secondItem="b5R-Kb-gSh" secondAttribute="bottom" id="g48-B0-HwD"/>
                                     <constraint firstItem="b5R-Kb-gSh" firstAttribute="top" secondItem="KBB-ae-UWT" secondAttribute="top" id="izd-aF-dmF"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="b5R-Kb-gSh" id="4DW-kG-0zV"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

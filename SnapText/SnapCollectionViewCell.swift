@@ -11,5 +11,6 @@ import UIKit
 class SnapCollectionViewCell: UICollectionViewCell {
     
     // Outlets
+    @IBOutlet weak var imageView: UIImageView!
     
 }
