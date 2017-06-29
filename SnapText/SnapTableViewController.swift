@@ -108,5 +108,7 @@ extension ViewController {
     
     func getSnaps() -> [Snap] {
     
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        return appDelegate.snaps
     }
 }
