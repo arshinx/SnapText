@@ -149,7 +149,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Snaps" id="jMB-TX-iwS">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="oFx-LU-kdS"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="oFx-LU-kdS">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" id="3eB-dE-1Rw"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZn-3n-qV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
