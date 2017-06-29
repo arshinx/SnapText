@@ -17,8 +17,7 @@ class SnapCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        snaps = appDelegate.snaps
+        snaps = getSnaps()
         
 
         // Uncomment the following line to preserve selection between presentations
