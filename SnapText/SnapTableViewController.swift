@@ -15,8 +15,7 @@ class SnapTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        snaps = appDelegate.snaps
+        snaps = getSnaps()
         tableView.reloadData()
     }
     
