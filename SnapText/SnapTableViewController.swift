@@ -19,6 +19,8 @@ class SnapTableViewController: UITableViewController {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         snaps = appDelegate.snaps
         
+        print("\n\n TableView \(snaps.count) \n\n")
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
