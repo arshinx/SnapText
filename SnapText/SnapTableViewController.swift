@@ -15,6 +15,8 @@ class SnapTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Snaps
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
