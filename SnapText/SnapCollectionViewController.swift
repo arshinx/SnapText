@@ -11,6 +11,8 @@ import UIKit
 private let reuseIdentifier = "Cell"
 
 class SnapCollectionViewController: UICollectionViewController {
+    
+    var snaps: [Snap]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
