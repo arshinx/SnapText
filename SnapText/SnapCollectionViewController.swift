@@ -19,6 +19,7 @@ class SnapCollectionViewController: UICollectionViewController {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         snaps = appDelegate.snaps
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -101,4 +102,14 @@ class SnapCollectionViewController: UICollectionViewController {
     }
     */
 
+}
+
+// MARK: Helpers
+extension SnapCollectionViewController {
+    
+    func getSnaps() -> [Snap] {
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        return appDelegate.snaps
+    }
 }
