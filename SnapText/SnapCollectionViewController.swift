@@ -33,7 +33,8 @@ class SnapCollectionViewController: UICollectionViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        
+        snaps = getSnaps()
+        collectionView?.reloadData()
     }
 
     /*
