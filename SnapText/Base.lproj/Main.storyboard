@@ -107,25 +107,6 @@
             </objects>
             <point key="canvasLocation" x="695.20000000000005" y="115.59220389805098"/>
         </scene>
-        <!--Item 2-->
-        <scene sceneID="NHo-oO-HCY">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xyD-cu-ss0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="AWE-Na-Aeg" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yDb-BI-chR"/>
-                        <viewControllerLayoutGuide type="bottom" id="s7v-pk-GzR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yjD-gf-vyw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="luO-4Y-yUh"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="-1132" y="1146"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XbO-Vz-9Xq">
             <objects>
@@ -136,14 +117,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="AWE-Na-Aeg" kind="relationship" relationship="viewControllers" id="NDu-4B-5GC"/>
+                        <segue destination="Nfk-R7-cma" kind="relationship" relationship="viewControllers" id="wEu-UW-AND"/>
+                        <segue destination="5H3-Kc-wED" kind="relationship" relationship="viewControllers" id="unW-FQ-gsh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSp-Pt-vbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2057" y="123"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item-->
         <scene sceneID="ccY-Au-jlh">
             <objects>
                 <tableViewController id="Nfk-R7-cma" sceneMemberID="viewController">
@@ -166,16 +148,17 @@
                             <outlet property="delegate" destination="Nfk-R7-cma" id="7kj-B0-q2P"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="SFw-qW-z4m"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZn-3n-qV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1131" y="-240"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Item-->
         <scene sceneID="dqi-MI-ETY">
             <objects>
                 <collectionViewController id="5H3-Kc-wED" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="lUX-Ne-mnU">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="lUX-Ne-mnU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,6 +183,7 @@
                             <outlet property="delegate" destination="5H3-Kc-wED" id="4IW-EY-bNP"/>
                         </connections>
                     </collectionView>
+                    <tabBarItem key="tabBarItem" title="Item" id="FER-uc-OK5"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kt0-z3-fPt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
