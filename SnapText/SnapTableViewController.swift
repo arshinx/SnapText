@@ -44,6 +44,7 @@ class SnapTableViewController: UITableViewController {
 
         // Configure the cell...
         let snap = snaps[indexPath.row]
+        cell.imageView?.image = snap.snap
 
         return cell
     }
