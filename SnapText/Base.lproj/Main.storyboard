@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="b47-EO-KRd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Qsr-zO-oKB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -125,7 +125,7 @@
             </objects>
             <point key="canvasLocation" x="-2057" y="123"/>
         </scene>
-        <!--Snap Table View Controller-->
+        <!--Snaps-->
         <scene sceneID="ccY-Au-jlh">
             <objects>
                 <tableViewController id="Nfk-R7-cma" customClass="SnapTableViewController" customModule="SnapText" customModuleProvider="target" sceneMemberID="viewController">
@@ -148,7 +148,7 @@
                             <outlet property="delegate" destination="Nfk-R7-cma" id="7kj-B0-q2P"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="jMB-TX-iwS"/>
+                    <navigationItem key="navigationItem" title="Snaps" id="jMB-TX-iwS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZn-3n-qV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
