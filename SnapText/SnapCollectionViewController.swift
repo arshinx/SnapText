@@ -62,6 +62,7 @@ class SnapCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
     
         // Configure the cell
+        let snap = snaps[indexPath.row]
     
         return cell
     }
