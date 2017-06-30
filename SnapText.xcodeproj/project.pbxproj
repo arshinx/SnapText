@@ -17,6 +17,7 @@
 		73CDD8301F05725C00725506 /* SnapCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CDD82F1F05725C00725506 /* SnapCollectionViewController.swift */; };
 		73CDD8321F05727700725506 /* SnapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CDD8311F05727700725506 /* SnapTableViewController.swift */; };
 		73CDD8341F059A1100725506 /* SnapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CDD8331F059A1100725506 /* SnapCollectionViewCell.swift */; };
+		73CDD8361F0611A400725506 /* SnapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CDD8351F0611A400725506 /* SnapDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		73CDD82F1F05725C00725506 /* SnapCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCollectionViewController.swift; sourceTree = "<group>"; };
 		73CDD8311F05727700725506 /* SnapTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapTableViewController.swift; sourceTree = "<group>"; };
 		73CDD8331F059A1100725506 /* SnapCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCollectionViewCell.swift; sourceTree = "<group>"; };
+		73CDD8351F0611A400725506 /* SnapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				73CDD8311F05727700725506 /* SnapTableViewController.swift */,
 				73CDD82F1F05725C00725506 /* SnapCollectionViewController.swift */,
 				73CDD8331F059A1100725506 /* SnapCollectionViewCell.swift */,
+				73CDD8351F0611A400725506 /* SnapDetailViewController.swift */,
 				73390A2D1F0307200049391F /* Main.storyboard */,
 				73390A3B1F0317C60049391F /* Extensions.swift */,
 				73390A301F0307200049391F /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				73CDD8321F05727700725506 /* SnapTableViewController.swift in Sources */,
 				73390A3C1F0317C60049391F /* Extensions.swift in Sources */,
 				73390A2A1F0307200049391F /* AppDelegate.swift in Sources */,
+				73CDD8361F0611A400725506 /* SnapDetailViewController.swift in Sources */,
 				73CDD8301F05725C00725506 /* SnapCollectionViewController.swift in Sources */,
 				73390A3E1F0343350049391F /* Snap.swift in Sources */,
 			);
