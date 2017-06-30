@@ -65,10 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				73390A291F0307200049391F /* AppDelegate.swift */,
+				73390A2B1F0307200049391F /* ViewController.swift */,
 				73CDD82F1F05725C00725506 /* SnapCollectionViewController.swift */,
 				73CDD8311F05727700725506 /* SnapTableViewController.swift */,
 				73CDD8331F059A1100725506 /* SnapCollectionViewCell.swift */,
-				73390A2B1F0307200049391F /* ViewController.swift */,
 				73390A3D1F0343350049391F /* Snap.swift */,
 				73390A3B1F0317C60049391F /* Extensions.swift */,
 				73390A2D1F0307200049391F /* Main.storyboard */,
