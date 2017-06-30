@@ -48,7 +48,8 @@ class SnapTableViewController: UITableViewController {
         // Configure the cell...
         let snap = snaps[indexPath.row]
         cell.imageView?.image = snap.snap
-        cell.detailTextLabel?.text = snap.topText + "..." + snap.bottomText
+        cell.textLabel?.text = snap.topText + "..." + snap.bottomText
+        cell.detailTextLabel?.text = ""
 
         return cell
     }
