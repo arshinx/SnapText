@@ -51,6 +51,7 @@ class SnapCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
+        print ("Snaps Count - Items in section: \(snaps.count)")
         return snaps.count
     }
 
@@ -59,9 +60,13 @@ class SnapCollectionViewController: UICollectionViewController {
         
         // Configure the cell
         let snap = snaps[indexPath.row]
+        print ("1. Snaps Count - Cell for item at: \(snap.snap)")
+        print ("2. Snaps Count - Cell for item at: \(snap.originalImage)")
         
-        cell.imageView.image = snap.snap
+        //if snaps.count > 0 { cell.imageView.image = snap.originalImage }
     
+        print ("3. Snaps Count - Cell for item at: \(snap.snap)")
+        
         return cell
     }
 
