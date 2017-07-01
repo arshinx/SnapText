@@ -198,7 +198,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5R-Kb-gSh">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5R-Kb-gSh">
                                             <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="111" id="WKE-JC-fBv"/>
@@ -323,6 +323,6 @@
         <image name="table_30x30" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3eB-dE-1Rw"/>
+        <segue reference="PND-LO-a6I"/>
     </inferredMetricsTieBreakers>
 </document>
