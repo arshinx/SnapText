@@ -51,6 +51,7 @@ class SnapTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let detailController = self.storyboard!.instantiateViewController(withIdentifier: "SnapDetailViewController") as! SnapDetailViewController
     }
  
 }
