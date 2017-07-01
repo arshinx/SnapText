@@ -191,7 +191,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="KBB-ae-UWT" customClass="SnapCollectionViewCell" customModule="SnapText" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SnapCollectionViewCell" id="KBB-ae-UWT" customClass="SnapCollectionViewCell" customModule="SnapText" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -325,6 +325,6 @@
         <image name="table_30x30" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3eB-dE-1Rw"/>
+        <segue reference="PND-LO-a6I"/>
     </inferredMetricsTieBreakers>
 </document>
