@@ -234,7 +234,7 @@
         <!--SnapDetailViewController-->
         <scene sceneID="3Ps-9h-3AB">
             <objects>
-                <viewController title="SnapDetailViewController" id="XFG-NF-BCl" customClass="SnapDetailViewController" customModule="SnapText" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SnapDetailViewController" title="SnapDetailViewController" id="XFG-NF-BCl" customClass="SnapDetailViewController" customModule="SnapText" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HgG-W6-Dcu"/>
                         <viewControllerLayoutGuide type="bottom" id="pEZ-Hi-i56"/>
