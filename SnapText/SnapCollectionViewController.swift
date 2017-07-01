@@ -35,6 +35,7 @@ class SnapCollectionViewController: UICollectionViewController {
         
         snaps = getSnaps()
         collectionView?.reloadData()
+        self.tabBarController?.tabBar.isHidden = false
     }
 
     /*
