@@ -125,7 +125,7 @@
             </objects>
             <point key="canvasLocation" x="-2057" y="123"/>
         </scene>
-        <!--Snaps-->
+        <!--Sent Snaps-->
         <scene sceneID="ccY-Au-jlh">
             <objects>
                 <tableViewController id="Nfk-R7-cma" customClass="SnapTableViewController" customModule="SnapText" customModuleProvider="target" sceneMemberID="viewController">
@@ -164,7 +164,7 @@
                             <outlet property="delegate" destination="Nfk-R7-cma" id="7kj-B0-q2P"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Snaps" id="jMB-TX-iwS">
+                    <navigationItem key="navigationItem" title="Sent Snaps" id="jMB-TX-iwS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="oFx-LU-kdS">
                             <connections>
                                 <segue destination="seg-vj-7HJ" kind="presentation" id="3eB-dE-1Rw"/>
@@ -323,6 +323,6 @@
         <image name="table_30x30" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PND-LO-a6I"/>
+        <segue reference="3eB-dE-1Rw"/>
     </inferredMetricsTieBreakers>
 </document>
