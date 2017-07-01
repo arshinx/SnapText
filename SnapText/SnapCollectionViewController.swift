@@ -18,9 +18,6 @@ class SnapCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
         
         snaps = getSnaps()
-
-        // Do any additional setup after loading the view.
-        collectionView?.reloadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
