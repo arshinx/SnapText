@@ -56,7 +56,7 @@ class SnapCollectionViewController: UICollectionViewController {
         
         // Grab the DetailVC from Storyboard
         let detailController = self.storyboard!.instantiateViewController(withIdentifier: "SnapDetailViewController") as! SnapDetailViewController
-        detailController.snap = snap
+        detailController.snap = snaps[indexPath.row]
         self.navigationController!.pushViewController(detailController, animated: true)
     }
 
