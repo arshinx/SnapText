@@ -26,7 +26,6 @@ class SnapTableViewController: UITableViewController {
         snaps = getSnaps()
         
         tableView.reloadData()
-        print("\n\n TableView \(snaps.count) \n\n")
     }
 
     // MARK: - Table view data source
