@@ -10,6 +10,8 @@ import UIKit
 
 class SnapDetailViewController: UIViewController {
 
+    // MARK: Properties
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
