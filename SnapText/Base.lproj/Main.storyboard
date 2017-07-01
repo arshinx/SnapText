@@ -243,12 +243,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kbz-be-ESv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kbz-be-ESv">
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pEZ-Hi-i56" firstAttribute="top" secondItem="Kbz-be-ESv" secondAttribute="bottom" id="0P8-j8-5b9"/>
+                            <constraint firstAttribute="trailing" secondItem="Kbz-be-ESv" secondAttribute="trailing" id="HOT-Yl-zDL"/>
+                            <constraint firstItem="Kbz-be-ESv" firstAttribute="top" secondItem="HgG-W6-Dcu" secondAttribute="bottom" constant="8" id="t3I-Df-MA2"/>
+                            <constraint firstItem="Kbz-be-ESv" firstAttribute="leading" secondItem="2ZL-cW-ku4" secondAttribute="leading" id="wX3-Rt-2UM"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="Kbz-be-ESv" id="PjC-65-ftK"/>
