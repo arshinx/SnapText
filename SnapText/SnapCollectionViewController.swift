@@ -35,7 +35,6 @@ class SnapCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        print ("Snaps Count - Items in section: \(snaps.count)")
         return snaps.count
     }
 
