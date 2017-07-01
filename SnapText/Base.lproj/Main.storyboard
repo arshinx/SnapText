@@ -250,6 +250,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Kbz-be-ESv" id="PjC-65-ftK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEd-fz-Hna" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
