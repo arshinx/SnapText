@@ -40,16 +40,12 @@ class SnapCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! SnapCollectionViewCell
         
         // Configure the cell
         let snap = snaps[indexPath.row]
-        print ("1. Snaps Count - Cell for item at: \(snap.snap)")
-        print ("2. Snaps Count - Cell for item at: \(snap.originalImage)")
         
-        //if snaps.count > 0 { cell.imageView.image = snap.originalImage }
-    
-        print ("3. Snaps Count - Cell for item at: \(snap.snap)")
         
         return cell
     }
