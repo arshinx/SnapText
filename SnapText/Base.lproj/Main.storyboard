@@ -180,7 +180,7 @@
         <scene sceneID="dqi-MI-ETY">
             <objects>
                 <collectionViewController title="Sent Snaps" id="5H3-Kc-wED" customClass="SnapCollectionViewController" customModule="SnapText" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="lUX-Ne-mnU">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="lUX-Ne-mnU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -217,7 +217,7 @@
                             <outlet property="delegate" destination="5H3-Kc-wED" id="4IW-EY-bNP"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="VnV-AW-oPt">
+                    <navigationItem key="navigationItem" title="Sent Snaps" id="VnV-AW-oPt">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="VEt-eg-Wef">
                             <connections>
                                 <segue destination="seg-vj-7HJ" kind="presentation" id="PND-LO-a6I"/>
