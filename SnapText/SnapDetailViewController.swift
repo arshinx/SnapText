@@ -13,6 +13,8 @@ class SnapDetailViewController: UIViewController {
     // MARK: Properties
     var snap: Snap!
     
+    // Outlets
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
