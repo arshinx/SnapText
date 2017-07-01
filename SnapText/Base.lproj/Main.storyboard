@@ -198,17 +198,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b5R-Kb-gSh">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5R-Kb-gSh">
                                             <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="111" id="WKE-JC-fBv"/>
+                                                <constraint firstAttribute="width" constant="111" id="q1w-Ul-5eL"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                 </view>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="b5R-Kb-gSh" secondAttribute="trailing" id="SfA-2s-oua"/>
-                                    <constraint firstItem="b5R-Kb-gSh" firstAttribute="leading" secondItem="KBB-ae-UWT" secondAttribute="leading" id="Xjt-9H-n8D"/>
-                                    <constraint firstAttribute="bottom" secondItem="b5R-Kb-gSh" secondAttribute="bottom" id="g48-B0-HwD"/>
-                                    <constraint firstItem="b5R-Kb-gSh" firstAttribute="top" secondItem="KBB-ae-UWT" secondAttribute="top" id="izd-aF-dmF"/>
-                                </constraints>
                                 <connections>
                                     <outlet property="imageView" destination="b5R-Kb-gSh" id="4DW-kG-0zV"/>
                                 </connections>
