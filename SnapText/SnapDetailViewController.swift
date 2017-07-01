@@ -19,7 +19,7 @@ class SnapDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        self.imageView.image = snap.snap
         self.tabBarController?.tabBar.isHidden = true
     }
     
