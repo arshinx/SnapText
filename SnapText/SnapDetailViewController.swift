@@ -11,6 +11,7 @@ import UIKit
 class SnapDetailViewController: UIViewController {
 
     // MARK: Properties
+    var snap: Snap!
     
     override func viewDidLoad() {
         super.viewDidLoad()
