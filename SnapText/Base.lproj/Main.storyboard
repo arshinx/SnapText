@@ -42,6 +42,7 @@
                                             <action selector="captureImage:" destination="BYZ-38-t0r" id="WR1-Zf-Sxd"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem systemItem="cancel" id="WxY-Qf-JgN"/>
                                 </items>
                             </toolbar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" TOP" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-2L-xn4">
