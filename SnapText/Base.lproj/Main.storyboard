@@ -36,12 +36,13 @@
                                             <action selector="pickImage:" destination="BYZ-38-t0r" id="fXd-wP-3Lo"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vZk-Lw-Omd"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cUN-Z4-IWT"/>
                                     <barButtonItem systemItem="camera" id="O9u-5V-ur4">
                                         <connections>
                                             <action selector="captureImage:" destination="BYZ-38-t0r" id="WR1-Zf-Sxd"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vZk-Lw-Omd"/>
                                     <barButtonItem systemItem="cancel" id="WxY-Qf-JgN"/>
                                 </items>
                             </toolbar>
