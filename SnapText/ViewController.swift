@@ -84,6 +84,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         unsubscribeFromKeyboardNotifications(name: .UIKeyboardWillShow)
         unsubscribeFromKeyboardNotifications(name: .UIKeyboardWillHide)
     }
+    
+    @IBAction func cancelSnap(_ sender: Any) {
+        
+    }
+    
 }
 
 // MARK: Image Picker Controller (Functions)

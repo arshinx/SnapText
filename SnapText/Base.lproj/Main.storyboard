@@ -43,7 +43,11 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vZk-Lw-Omd"/>
-                                    <barButtonItem systemItem="cancel" id="WxY-Qf-JgN"/>
+                                    <barButtonItem systemItem="cancel" id="WxY-Qf-JgN">
+                                        <connections>
+                                            <action selector="cancelSnap:" destination="BYZ-38-t0r" id="Rxc-bU-iuK"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" TOP" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-2L-xn4">
