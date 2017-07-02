@@ -86,7 +86,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func cancelSnap(_ sender: Any) {
-        
+        dismiss(animated: true, completion: nil)
     }
     
 }
