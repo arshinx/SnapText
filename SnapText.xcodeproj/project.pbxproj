@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		73390A2A1F0307200049391F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73390A291F0307200049391F /* AppDelegate.swift */; };
-		73390A2C1F0307200049391F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73390A2B1F0307200049391F /* ViewController.swift */; };
+		73390A2C1F0307200049391F /* SnapEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73390A2B1F0307200049391F /* SnapEditViewController.swift */; };
 		73390A2F1F0307200049391F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73390A2D1F0307200049391F /* Main.storyboard */; };
 		73390A311F0307200049391F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73390A301F0307200049391F /* Assets.xcassets */; };
 		73390A341F0307200049391F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73390A321F0307200049391F /* LaunchScreen.storyboard */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		73390A261F0307200049391F /* SnapText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73390A291F0307200049391F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73390A2B1F0307200049391F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73390A2B1F0307200049391F /* SnapEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapEditViewController.swift; sourceTree = "<group>"; };
 		73390A2E1F0307200049391F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73390A301F0307200049391F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73390A331F0307200049391F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			children = (
 				73390A3D1F0343350049391F /* Snap.swift */,
 				73390A291F0307200049391F /* AppDelegate.swift */,
-				73390A2B1F0307200049391F /* ViewController.swift */,
+				73390A2B1F0307200049391F /* SnapEditViewController.swift */,
 				73CDD8311F05727700725506 /* SnapTableViewController.swift */,
 				73CDD82F1F05725C00725506 /* SnapCollectionViewController.swift */,
 				73CDD8331F059A1100725506 /* SnapCollectionViewCell.swift */,
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73CDD8341F059A1100725506 /* SnapCollectionViewCell.swift in Sources */,
-				73390A2C1F0307200049391F /* ViewController.swift in Sources */,
+				73390A2C1F0307200049391F /* SnapEditViewController.swift in Sources */,
 				73CDD8321F05727700725506 /* SnapTableViewController.swift in Sources */,
 				73390A3C1F0317C60049391F /* Extensions.swift in Sources */,
 				73390A2A1F0307200049391F /* AppDelegate.swift in Sources */,
