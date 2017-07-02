@@ -54,6 +54,12 @@ class SnapTableViewController: UITableViewController {
         detailController.snap = snaps[indexPath.row]
         self.navigationController!.pushViewController(detailController, animated: true)
     }
+    
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    
  
 }
 
